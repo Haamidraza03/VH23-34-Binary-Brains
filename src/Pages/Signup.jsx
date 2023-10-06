@@ -2,9 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 
 function Signup() {
-    const firesignup=()=>{
-
-    }
+    
   return (
     <div className='justify-content-center' style={{marginTop:"150px"}}>
         <div className="row justify-content-center">
@@ -15,7 +13,7 @@ function Signup() {
                 <input type="number" className='inp ps-3 fs-5 border w-100 rounded-pill mb-4' placeholder='Phone Number' id='phone' />
                 <input type="password" className='inp ps-3 fs-5 border w-100 rounded-pill mb-4' placeholder='Enter your Password' id='password' />
                 <input type="password" className='inp ps-3 fs-5 border w-100 rounded-pill mb-4' placeholder='Enter your Password' id='cpassword' /> <br />
-                <button className='btn border bg-success text-white px-4 py-1 rounded-pill mb-1' onClick={firesignup}>SignUp</button>
+                <button className='btn border bg-success text-white px-4 py-1 rounded-pill mb-1'>SignUp</button>
                 <p>Already have an Account? <Link to="/login">Login</Link></p>
             </div>
         </div>

@@ -6,6 +6,7 @@ import Home from "../src/Pages/Home";
 import Navbar from "../src/Components/Navbar";
 import Signup from "../src/Pages/Signup";
 import Login from "../src/Pages/Login";
+import Contact from "../src/Pages/Contact"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/signup' element={<Signup/>} />
           <Route path='/login' element={<Login/>} />
+          <Route path='/contact' element={<Contact/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
       </div>

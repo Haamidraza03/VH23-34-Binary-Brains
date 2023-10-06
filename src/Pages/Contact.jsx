@@ -2,7 +2,9 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div style={{marginTop:"100px"}} className='text-dark'>
+      Contact
+    </div>
   )
 }
 
