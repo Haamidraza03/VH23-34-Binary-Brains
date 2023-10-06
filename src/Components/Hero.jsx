@@ -16,7 +16,7 @@ function Hero() {
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
             <p className='fs-1'>Start your Learning here with <b><span className='stdtext'>Study Buddy</span></b></p>
             <div></div>
-            <p className='fs-1 autotype'>{text}<span style={{color:"black"}}><Cursor/></span></p>
+            <p className='fs-1 autotype mb-3'>{text}<span style={{color:"black"}}><Cursor/></span></p>
             </div>
             <center><Link to="/signup"><button className='btn rounded-pill bg-warning border-dark py-2 px-4 fs-5 shadow' data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out"><b>Login/SignUp</b></button></Link></center>
         </div>

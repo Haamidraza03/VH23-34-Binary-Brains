@@ -14,12 +14,9 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
           <Link to="/" className='fs-5 nav-link active me-3'>Home</Link>
-            <NavDropdown title="Groups" id="basic-nav-dropdown" className='fs-5'>
-              <NavDropdown.Item><Link to="/" className='nav-link active'>State Board</Link></NavDropdown.Item>
-              <NavDropdown.Item><Link to="/" className='nav-link active'>CBSE</Link></NavDropdown.Item>
-            </NavDropdown>
-            <Link to="/contact" className='fs-5 nav-link active me-3'>Contact Us</Link>
-            <Link to="/signup" className='fs-5 nav-link active me-3'>Login/SignUp</Link>
+          <Link to="/groups" className='fs-5 nav-link active me-3'>Groups</Link>
+          <Link to="/contact" className='fs-5 nav-link active me-3'>Contact Us</Link>
+          <Link to="/signup" className='fs-5 nav-link active me-3'>Login/SignUp</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

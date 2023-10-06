@@ -7,6 +7,8 @@ import Navbar from "../src/Components/Navbar";
 import Signup from "../src/Pages/Signup";
 import Login from "../src/Pages/Login";
 import Contact from "../src/Pages/Contact"
+import Groups from './Pages/Groups';
+import Virroom from './Pages/Virroom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
           <Route path='/signup' element={<Signup/>} />
           <Route path='/login' element={<Login/>} />
           <Route path='/contact' element={<Contact/>} />
+          <Route path='/groups' element={<Groups/>} />
+          <Route path='/virroom' element={<Virroom/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
       </div>
