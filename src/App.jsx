@@ -7,8 +7,8 @@ import Navbar from "../src/Components/Navbar";
 import Signup from "../src/Pages/Signup";
 import Login from "../src/Pages/Login";
 import Contact from "../src/Pages/Contact"
-import Groups from './Pages/Groups';
-import Virroom from './Pages/Virroom';
+import Groups from '../src/Pages/Groups';
+import Virroom from '../src/Pages/Virroom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

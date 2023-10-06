@@ -1,0 +1,72 @@
+[
+    {
+        "id":1,
+        "name": "Mathathematics-Integration part 1",
+        "image": "./intergration.webp",
+        "desc": "Learn exciting formulas of integration from basics to advance.",
+        "price": "FREE"
+    },
+    {
+        "id":2,
+        "name": "Science-Disaster Management",
+        "image": "./science dm.png",
+        "desc": "Learn amazing facts about causes of disaster and how to manage it.",
+        "price": "FREE"
+    },
+    {
+        "id":3,
+        "name": "General Knowledge-Current Affairs",
+        "image": "./GK CF.png",
+        "desc": "Learn What's going in our nation India and all over the  world.",
+        "price": "FREE"
+    },
+    {
+        "id":4,
+        "name": "History- Brave story of Shivaji Maharaj",
+        "image": "./shiv.jpg",
+        "desc": "Know about Shivaji Maharaj, his childhood memories and his brave stories",
+        "price": "FREE"
+    },
+    {
+        "id":5,
+        "name": "Maths-Solve derivation Part-1 by R. Sharma",
+        "image": "./derivation.jpg",
+        "desc": "Know how easy is to solve derivation and enjoy solving different types of problems.",
+        "price": "Rs. 739"
+    },
+    {
+        "id":6,
+        "name": "Scienec-Living things and its classification",
+        "image": "./livthing.webp",
+        "desc": "Learn charecteristics, factors and types of living things and how they are classified",
+        "price": "FREE"
+    },
+    {
+        "id":7,
+        "name": "GK-Solved paper of UPSC by M. Jam",
+        "image": "./upsc.jpg",
+        "desc": "Helps to carks UPSC GK questions for UPSC and other Compititive exams",
+        "price": "Rs. 1849"
+    },
+    {
+        "id":8,
+        "name": "Geography-Pollution by J. Rowling",
+        "image": "./poluttion.jpg",
+        "desc": "Learn different types of pollution ,its factors and how can be stop!!!",
+        "price": "Rs. 1799"
+    },
+    {
+        "id":9,
+        "name": "History- India before Mughals by Jain",
+        "image": "./mugu.jpg",
+        "desc": "Learn what was the condition before and after the Mughals in India",
+        "price": "Rs. 79"
+    },
+    {
+        "id":10,
+        "name": "Geography- Resources and development",
+        "image": "./res.png",
+        "desc": "Learn how environment and its resources are helpfull and how it can be prevented",
+        "price": "FREE"
+    }
+]
