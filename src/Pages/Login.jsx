@@ -14,7 +14,7 @@ function Login() {
                 
                 <input type="password" className='inp ps-3 fs-4 border w-100 rounded-pill mb-4' placeholder='Enter your Password' id='password' />
                 <br />
-                <button className='btn border bg-success text-white px-4 py-1 rounded-pill mb-1 fs-5'>Login</button>
+                <Link to="/groups"><button className='btn border bg-success text-white px-4 py-1 rounded-pill mb-1 fs-5'>Login</button></Link>
                 <p>Don't have an Account? <Link to="/signup">SignUp</Link></p>
             </div>
         </div>
