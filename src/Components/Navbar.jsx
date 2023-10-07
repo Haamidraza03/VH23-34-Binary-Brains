@@ -9,7 +9,7 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary fixed-top">
       <Container>
-        <Navbar.Brand href="#home"><img src={Logo} className='img-fluid rounded-circle' width={35}/> Study Buddy</Navbar.Brand>
+        <Navbar.Brand href="#home"><Link to="/"><img src={Logo} className='img-fluid rounded-circle' width={35}/></Link> Study Buddy</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

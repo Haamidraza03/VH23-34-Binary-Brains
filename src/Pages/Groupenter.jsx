@@ -53,7 +53,6 @@ class Groupenter extends Component {
       <div className="row justify-content-evenly" style={{marginTop:"150px"}}>
         <div className="col-md-4">
         <div className="card1">
-          <h1 id='h1'>VIRTUAL STUDY BUDDY APP</h1>
           <h3>Upload your file</h3>
           <div>
             <label className="custom-file-upload">

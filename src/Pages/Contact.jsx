@@ -44,6 +44,8 @@ function Contact() {
         </div>
         <div className="col-md-5 mt-5">
           <h2 className='fs-1 text-center'>Contact Us</h2>
+          <center><h4>Phone: +91 9422671453</h4>
+          <h4>E-Mail: binarybrains34@gmail.com</h4></center>
           <center><form>
             <input type="text" placeholder='Enter your Name' className='w-100 rounded-3 border fs-5 ps-2 mb-3' ref={nameInput}/><br />
             <input type="email" placeholder='Enter you Mail' className='w-100 rounded-3 border fs-5 ps-2 mb-3' ref={emailInput}/><br />
