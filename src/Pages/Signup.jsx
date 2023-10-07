@@ -12,7 +12,7 @@ function Signup() {
                 <input type="email" className='inp ps-3 fs-5 border w-100 rounded-pill mb-4' placeholder='Enter your E-mail' id='email' />
                 <input type="number" className='inp ps-3 fs-5 border w-100 rounded-pill mb-4' placeholder='Phone Number' id='phone' />
                 <input type="password" className='inp ps-3 fs-5 border w-100 rounded-pill mb-4' placeholder='Enter your Password' id='password' />
-                <input type="password" className='inp ps-3 fs-5 border w-100 rounded-pill mb-4' placeholder='Enter your Password' id='cpassword' /> <br />
+                <input type="password" className='inp ps-3 fs-5 border w-100 rounded-pill mb-4' placeholder='Confirm Password' id='cpassword' /> <br />
                 <button className='btn border bg-success text-white px-4 py-1 rounded-pill mb-1'>SignUp</button>
                 <p>Already have an Account? <Link to="/login">Login</Link></p>
             </div>
