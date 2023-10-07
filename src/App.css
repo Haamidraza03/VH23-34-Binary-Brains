@@ -29,6 +29,7 @@ a{
   border: 2px solid aqua !important;
 }
 
+
 .autotype{
   color:transparent;
   -webkit-background-clip:text;
@@ -42,6 +43,19 @@ a{
   border: none;
 }
 
+.card1 {
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#h1 {
+  color: #007bff;
+}
+
 .card:hover
 {
   box-shadow:0px 0px 20px rgb(230, 82, 14);
@@ -50,6 +64,44 @@ a{
 
 .card img {
   height: 300px;
+}
+
+#buton {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#inp1[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#clr {
+  color: #007bff;
+}
+
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
+
+#buton:hover {
+  background-color: #0056b3;
 }
 
 .form-control {

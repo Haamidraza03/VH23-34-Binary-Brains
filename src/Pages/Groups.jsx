@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 // import data from "./TemplateData.json";
 import img1 from "./intergration.webp";
 import img2 from "./science dm.png";
@@ -10,6 +10,7 @@ import img7 from "./upsc.jpg";
 import img8 from "./poluttion.jpg";
 import img9 from "./mugu.jpg";
 import img10 from "./res.png";
+import {Link} from 'react-router-dom';
 
 function Groups() {
   return (
@@ -21,7 +22,7 @@ function Groups() {
             <h1>Mathathematics-Integration part 1</h1>
             <p>Learn exciting formulas of integration from basics to advance.</p>
             <p>FREE</p>
-            <button className='btn rounded-pill px-4 py-1 bg-primary text-white'>Join Now</button>
+            <Link to="/groupenter"><button className='btn rounded-pill px-4 py-1 bg-primary text-white'>Join Now</button></Link>
           </div>
           <div className="col-md-3 rounded-4 p-2 bg-white mb-3">
             <img src={img2} className='img-fluid rounded-4' />
