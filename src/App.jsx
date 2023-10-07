@@ -8,6 +8,7 @@ import Signup from "../src/Pages/Signup";
 import Login from "../src/Pages/Login";
 import Contact from "../src/Pages/Contact"
 import Groups from '../src/Pages/Groups';
+import Footer from '../src/Components/Footer';
 import Groupenter from '../src/Pages/Groupenter';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -28,6 +29,7 @@ function App() {
           <Route path='/groupenter' element={<Groupenter/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

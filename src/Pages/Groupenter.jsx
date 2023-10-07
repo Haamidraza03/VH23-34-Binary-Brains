@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { Component } from 'react';
 import Todolist from '../Components/Todolist';
+import Chatbox from '../Components/Chatbox';
 
 
 class Groupenter extends Component {
@@ -50,31 +51,31 @@ class Groupenter extends Component {
 
   render() {
     return (
+        <>
       <div className="row justify-content-evenly" style={{marginTop:"150px"}}>
-        <div className="col-md-4">
-        <div className="card1">
+        <div className="col-md-3">
+        <div className="card1 shadow">
           <h3>Upload your file</h3>
-          <div>
             <label className="custom-file-upload">
               <input type="file" id='inp1' onChange={this.onFileChange} />
               Upload File
             </label>
             
-            <button onClick={this.handleRefresh} style={{ marginLeft: '10px' }} id="buton">Refresh</button>
+            <button onClick={this.handleRefresh} style={{ marginLeft: '10px' }} id="buton">Remove</button>
           </div>
           {this.fileData()}
         </div>
-        <div className="ms-2 col-md-10 mt-4 rounded-3 p-3 bg-white">
-            <center><h3>Want to Test your Knowledge?</h3></center>
-            <center><a href="https://haamidraza03.github.io/quizmaths/"><button className='bg-primary rounded-3 text-white btn mt-3 px-4'>Take Quiz</button></a></center>
-        </div>
+        <div className="ms-2 col-md-3 rounded-3 p-3 bg-white shadow" style={{height:"135px"}}>
+            <center><h3>Test your Knowledge?</h3></center>
+            <center><a href="https://haamidraza03.github.io/quizmaths/"><button className='bg-primary rounded-3 text-white btn px-4 mt-3'>Take Quiz</button></a></center>
         </div>
 
-        <div className="col-md-5">
+        <div className="col-md-4 mt-1">
             <Todolist/>
         </div>
-        
       </div>
+        <Chatbox/>
+      </>
     );
   }
 }

@@ -82,21 +82,20 @@ class Todolist extends Component {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              fontSize: "3rem",
-              fontWeight: "bolder",
+              fontSize: "2rem",
+              fontWeight: "bold",
               color: "#007bff", // Added color
               borderBottom: "3px solid #007bff", // Added border
               marginBottom: "20px", // Added margin
               paddingBottom: "10px" // Added padding
             }}
           >
-            TODO LIST
+            TO DO LIST
           </Row>
   
-          <hr />
           <Row>
             <Col md={{ span: 10, offset:1 }}>
-              <InputGroup className="mb-3">
+              <InputGroup className="mb-2">
                 <FormControl
                   placeholder="ADD IN YOUR LIST... "
                   size="lg"
@@ -118,14 +117,14 @@ class Todolist extends Component {
             </Col>
           </Row>
           <Row>
-            <Col md={{ span: 5, offset: 4 }}>
+            <Col md={{ span: 10, offset: 1 }}>
               <ListGroup>
                 {/* map over and print items */}
                 {this.state.list.map((item, index) => {
                   return (
                     <div key={index}>
                       <ListGroup.Item
-                        variant="dark"
+                        variant="primary"
                         action
                         style={{
                           display: "flex",

@@ -30,8 +30,8 @@ function Groups() {
             <img src={img2} className='rounded-4' width="343" height="213"/>
             <h3>Science-Disaster Management</h3>
             <center><textarea rows="2" cols="42" className='border'>Learn amazing facts about causes of disaster and how to manage it.</textarea></center>
-            <p>FREE</p>
-            <button className='btn rounded-pill px-4 py-1 bg-primary text-white'>Join Now</button>
+            <p>Rs.150</p>
+            <button className='btn rounded-pill px-4 py-1 bg-primary text-white'>Pay Now</button>
           </div>
           <div className="col-md-3 rounded-4 p-1 bg-white mb-3">
             <img src={img3} className=' rounded-4' width="343" height="213"/>

@@ -4,7 +4,7 @@
 
 .App {
   font-family: 'Poppins', sans-serif; 
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -44,7 +44,7 @@ a{
 }
 
 .card1 {
-  max-width: 400px;
+  /* max-width: 400px; */
   padding: 20px;
   border-radius: 8px;
   background-color: #fff;
@@ -54,16 +54,6 @@ a{
 
 #h1 {
   color: #007bff;
-}
-
-.card:hover
-{
-  box-shadow:0px 0px 20px rgb(230, 82, 14);
-  cursor: pointer;
-}
-
-.card img {
-  height: 300px;
 }
 
 #buton {
@@ -109,6 +99,79 @@ a{
   border: none;
   border-radius: 2px;
 }
+
+.card2-container {
+  border: 3px solid #18efce;
+  border-radius: 10px;
+  max-width: 350px;
+  min-height: 600px; /* Set a minimum height */
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  display: flex; /* Add a flexbox */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Put space between elements */
+}
+
+
+.card2-details label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight:bold;
+}
+
+
+.card2-details button {
+  margin-top: 5px;
+}
+
+
+.qr-button-container {
+  margin-top: 5px;
+}
+
+
+.qr-button {
+  background-color: #2286f1; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 28px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.or-statement {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(25, 239, 235);
+}
+
+.contain{
+  height: 70vh;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+.hh{
+  height: 70vh;
+}
+
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+
+.proceed-button {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(25, 239, 235);
+}
+
 
 @media(max-width:425px){
   .st{
