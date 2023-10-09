@@ -76,7 +76,7 @@ class Todolist extends Component {
   
     render() {
       return (
-        <Container>
+        <Container data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out">
           <Row
             style={{
               display: "flex",
