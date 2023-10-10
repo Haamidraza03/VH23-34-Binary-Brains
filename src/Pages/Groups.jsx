@@ -17,7 +17,7 @@ function Groups() {
   return (
     <>
       <div style={{marginTop:"90px"}}>
-        <a href="https://www.kommunicate.io/livechat-demo?appId=39ed37a4c9400cb65b697722bb05879f8&botIds=buddy-qqn7z&assignee=buddy-qqn7z"><span className='text-white bg-primary rounded-5 px-2' style={{fontSize:"50px",position:"fixed",bottom:"20px", right:"30px",zIndex:"99"}}><BsRobot/></span></a>
+        <a href="https://www.kommunicate.io/livechat-demo?appId=39ed37a4c9400cb65b697722bb05879f8&botIds=buddy-qqn7z&assignee=buddy-qqn7z"><span className='text-dark bg-warning rounded-5 px-2 pb-2' style={{fontSize:"50px",position:"fixed",bottom:"20px", right:"30px",zIndex:"99"}}><BsRobot/></span></a>
         <div className="row justify-content-evenly px-4">
           <div className="col-md-3 rounded-4 p-1 bg-white mb-3">
             <center><img src={img1} className=' rounded-4' width="343" height="213"/></center>
