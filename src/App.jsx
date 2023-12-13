@@ -16,6 +16,18 @@ function App() {
   useEffect(()=>{
     AOS.init({once:"true"});
   },[])
+
+  useEffect(() => {
+    const handleRightClick = (e) => {
+      e.preventDefault();
+    }
+
+    document.addEventListener('contextmenu', handleRightClick);
+    
+    return () => {
+      document.removeEventListener('contextmenu', handleRightClick);
+    }
+  }, []);
   return (
     <BrowserRouter>
     <div className="App">
